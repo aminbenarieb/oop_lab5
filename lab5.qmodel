@@ -49,7 +49,7 @@
                          </base-DElement>
                          <object>{4a3333fb-d992-4f57-ad75-62613caf3ddc}</object>
                          <name>1. Увлажнитель</name>
-                         <pos>x:195;y:5</pos>
+                         <pos>x:195;y:60</pos>
                          <rect>x:-55;y:-40;w:110;h:80</rect>
                          <visual-role>6</visual-role>
                          <visual-role2>2</visual-role2>
@@ -72,7 +72,7 @@
                          </base-DElement>
                          <object>{e80f7a5a-c368-44c2-b934-c7f751098795}</object>
                          <name>4. Контроллер</name>
-                         <pos>x:195;y:205</pos>
+                         <pos>x:195;y:260</pos>
                          <rect>x:-60;y:-50;w:120;h:100</rect>
                          <visual-role>6</visual-role>
                          <visual-role2>2</visual-role2>
@@ -95,7 +95,7 @@
                          </base-DElement>
                          <object>{87d0a377-8e70-42d9-a70d-2c33a801dd8e}</object>
                          <name>2. Водоподатчик</name>
-                         <pos>x:580;y:255</pos>
+                         <pos>x:580;y:310</pos>
                          <rect>x:-110;y:-45;w:220;h:90</rect>
                          <visual-role>6</visual-role>
                          <visual-role2>2</visual-role2>
@@ -118,7 +118,7 @@
                          </base-DElement>
                          <object>{dd30e7b7-311a-4b00-a66f-64bc9a3162e7}</object>
                          <name>3.Раздуватель</name>
-                         <pos>x:695;y:80</pos>
+                         <pos>x:695;y:135</pos>
                          <rect>x:-140;y:-45;w:280;h:90</rect>
                          <visual-role>6</visual-role>
                          <visual-role2>2</visual-role2>
@@ -142,7 +142,7 @@
                          <object>{4a32007a-2ce2-493c-aad7-4c74c854f366}</object>
                          <name>Информационная модель
 </name>
-                         <pos>x:210;y:-80</pos>
+                         <pos>x:210;y:-25</pos>
                          <rect>x:-90;y:-20;w:180;h:40</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
@@ -210,7 +210,7 @@
                          </base-DElement>
                          <object>{6e008d56-f2fa-4d6c-a851-e6f650305643}</object>
                          <name>R12</name>
-                         <pos>x:410;y:130</pos>
+                         <pos>x:410;y:185</pos>
                          <rect>x:-15;y:-15;w:30;h:30</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -231,7 +231,7 @@
                          </base-DElement>
                          <object>{3232139f-2c91-4e44-8987-293743f7382d}</object>
                          <name>R14</name>
-                         <pos>x:220;y:110</pos>
+                         <pos>x:220;y:165</pos>
                          <rect>x:-15;y:-15;w:30;h:30</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -252,7 +252,7 @@
                          </base-DElement>
                          <object>{eed0e1c8-ebdb-4700-a6ac-1cfe5c60c329}</object>
                          <name>R14</name>
-                         <pos>x:415;y:30</pos>
+                         <pos>x:415;y:85</pos>
                          <rect>x:-15;y:-15;w:30;h:30</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -325,9 +325,55 @@
                       </DAssociation>
                      </instance>
                     </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{b2ee7c46-bc77-4efa-b3bb-bae58c765a56}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{a2432ac2-67cf-4ee8-85e6-5365065ccaa6}</object>
+                         <a>{75af0a0b-4f39-46f2-a93a-76b6cc7e940c}</a>
+                         <b>{c8d2f95c-49cc-40af-aae2-d5153ed6beea}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <navigable>true</navigable>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{2369d99d-8a20-4dab-8d4a-eab6aa5ce675}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{91c9107b-05f9-4865-8d26-f13524c824c9}</object>
+                         <a>{f78ef30c-f189-49db-aea1-7c10166e864c}</a>
+                         <b>{c8d2f95c-49cc-40af-aae2-d5153ed6beea}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <navigable>true</navigable>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
                    </qlist>
                   </elements>
-                  <last-modified>1465300880233</last-modified>
+                  <last-modified>1465468646395</last-modified>
                  </MDiagram>
                 </base-MDiagram>
                </MCanvasDiagram>
@@ -672,6 +718,33 @@
                         </target>
                        </handle>
                       </item>
+                      <item>
+                       <handle>
+                        <uid>{a2432ac2-67cf-4ee8-85e6-5365065ccaa6}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{a2432ac2-67cf-4ee8-85e6-5365065ccaa6}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{87d0a377-8e70-42d9-a70d-2c33a801dd8e}</a>
+                             <b>{4a3333fb-d992-4f57-ad75-62613caf3ddc}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
                      </qlist>
                     </handles>
                    </handles>
@@ -682,21 +755,21 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{4b0c7434-9820-4953-b4b4-9ad5e72525bd}</uid>
+                    <uid>{a97666bc-2efb-4dc8-ae13-f9d8e6d80129}</uid>
                     <type>1</type>
                     <declaration>* id обогревателя</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{c9f14b6c-cefd-4b4e-a128-7d6c510737f8}</uid>
+                    <uid>{3c298f07-c513-416a-aeff-1c6753b274d4}</uid>
                     <type>1</type>
                     <declaration>v текущ. режим концентрации воды</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{37d76e56-c152-489e-9994-38fd639d88db}</uid>
+                    <uid>{51dea81e-a327-47bb-b425-37cd5cf8946a}</uid>
                     <type>1</type>
                     <declaration>v состояние</declaration>
                    </MClassMember>
@@ -780,6 +853,33 @@
                         </target>
                        </handle>
                       </item>
+                      <item>
+                       <handle>
+                        <uid>{91c9107b-05f9-4865-8d26-f13524c824c9}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{91c9107b-05f9-4865-8d26-f13524c824c9}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{dd30e7b7-311a-4b00-a66f-64bc9a3162e7}</a>
+                             <b>{4a3333fb-d992-4f57-ad75-62613caf3ddc}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
                      </qlist>
                     </handles>
                    </handles>
@@ -790,21 +890,21 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{226b45bf-238f-4118-9a5b-5bbbd8ec5cd7}</uid>
+                    <uid>{dd1f9898-a101-483c-99b3-7c994390ce89}</uid>
                     <type>1</type>
                     <declaration>* id раздувателя</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{4fc3faba-3168-49b0-a917-ab7da7776244}</uid>
+                    <uid>{d504ca97-cd73-4050-9bbf-f43715ef2d99}</uid>
                     <type>1</type>
                     <declaration>v текущ. режим интенсивности потока воздуха</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{924b0351-7954-477c-9953-48d7be3f6d72}</uid>
+                    <uid>{21bafc5f-6612-4a59-aa6e-f1a6ed2816d0}</uid>
                     <type>1</type>
                     <declaration>v состояние</declaration>
                    </MClassMember>
